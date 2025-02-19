@@ -1,0 +1,5 @@
+// Eliminar BSWPM del sistema
+
+sudo apt remove --purge bspwm
+sudo apt autoremove
+rm -rf ~/.config/bspwm ~/.config/sxhkd

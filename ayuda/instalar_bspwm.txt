@@ -1,0 +1,7 @@
+git clone "Link"
+
+cd ""
+
+chmod +x install.sh
+
+./install.sh
