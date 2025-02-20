@@ -2,11 +2,15 @@
 
 BSPWM para Kali/Parrot personalizado!
 
-Primero que nada actualiza el sistema antes de usar este escript con ```sudo apt update``` y ```sudo apt upgrade```
+
 
 1.- Uso del Script 
 
 ```
+sudo apt update
+
+sudo apt upgrade
+
 https://github.com/xhryzz/XhryzBspwm.git
 
 cd XhryzBspwm
