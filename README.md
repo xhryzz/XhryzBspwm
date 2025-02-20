@@ -19,18 +19,16 @@ chmod +x install.sh
 Este Script esta diseñado para funcional en Kali Linux y Parrot OS.
 
 
-#===============================MIS-REDES==================================#
+## Mis redes y mis cosas ;)
 
 [Página Web](https://xhryzz.github.io/web/)
 
 [Instagram](https://www.instagram.com/chriismartinezz/)
 
-[Discord](discord://-/users/637698552360861696)
-
 [PayPal](http://paypal.com/paypalme/chriismartinezz)
 
 
-#=========================================================================#
+
 
 ## A continuación un ejemplo de cómo se ve visualmente, custom p10k, kitty terminal, zsh shell, custom wallpapers, i3lock, etc.
 
@@ -74,3 +72,7 @@ Este Script esta diseñado para funcional en Kali Linux y Parrot OS.
 | Bajar volumen del sistema | <kbd>Fn</kbd> + <kbd>F2</kbd> |
 | Subir brillo del monitor | <kbd>Fn</kbd> + <kbd>F6</kbd> |
 | Bajar brillo del monitor | <kbd>Fn</kbd> + <kbd>F5</kbd> |
+
+
+
+
