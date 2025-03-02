@@ -11,7 +11,7 @@ sudo apt update
 
 sudo apt upgrade
 
-https://github.com/xhryzz/XhryzBspwm.git
+git clone https://github.com/xhryzz/XhryzBspwm.git
 
 cd XhryzBspwm
 
