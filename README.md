@@ -20,7 +20,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-Este Script esta diseñado para funcional en Kali Linux y Parrot OS.
+Este Script esta diseñado para funcionar en Kali Linux y Parrot OS.
 
 
 ## Mis redes y mis cosas ;)
