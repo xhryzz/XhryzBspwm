@@ -1,26 +1,38 @@
-# XhryzBspwm
+# XhyTrack
 
-BSPWM para Kali/Parrot personalizado!
+## Descripción
+*XhyTrack* es una aplicación full-stack responsiva diseñada para ayudar a las personas a llevar un control de sus entrenamientos. En la página de inicio, los usuarios pueden elegir agregar ejercicios al último entrenamiento realizado (si existe) o crear un nuevo entrenamiento al que agregar ejercicios. Además, los usuarios pueden ver las estadísticas de sus últimos siete entrenamientos en la página de panel de control, y consultar todo su historial de entrenamientos en la página de historial.
 
 
+
+## Instrucciones
+1. En la página de inicio, elige si deseas agregar un ejercicio al último entrenamiento o crear un nuevo entrenamiento.
+2. En la página de ejercicios, selecciona si vas a agregar un ejercicio de resistencia o de cardio y completa los detalles requeridos.
+3. Después de ingresar los detalles del ejercicio, puedes optar por agregar otro ejercicio al entrenamiento o finalizarlo y regresar a la página de inicio.
+4. Accede a la página 'Panel de Control' para ver las estadísticas de los últimos siete entrenamientos.
+5. Accede a la página 'Historial de Entrenamientos' para ver o eliminar entrenamientos anteriores.
+
+
+
+## Instalación
+1. En la página de inicio, elige si deseas agregar un ejercicio al último entrenamiento o crear un nuevo entrenamiento.
+2. En la página de ejercicios, selecciona si vas a agregar un ejercicio de resistencia o de cardio y completa los detalles requeridos.
+3. Después de ingresar los detalles del ejercicio, puedes optar por agregar otro ejercicio al entrenamiento o finalizarlo y regresar a la página de inicio.
+4. Accede a la página 'Panel de Control' para ver las estadísticas de los últimos siete entrenamientos.
+5. Accede a la página 'Historial de Entrenamientos' para ver o eliminar entrenamientos anteriores.
 
 1.- Uso del Script 
 
 ```
-sudo apt update
-
-sudo apt upgrade
-
-git clone https://github.com/xhryzz/XhryzBspwm.git
-
-cd XhryzBspwm
-
-chmod +x install.sh
-
-./install.sh
+git clone https://github.com/xhryzz/XhyTrack.git
 ```
 
-Este Script esta diseñado para funcionar en Kali Linux y Parrot OS.
+```
+npm install express
+```
+```
+node server.js
+```
 
 
 ## Mis redes y mis cosas ;)
@@ -33,50 +45,10 @@ Este Script esta diseñado para funcionar en Kali Linux y Parrot OS.
 
 
 
-
 ## A continuación un ejemplo de cómo se ve visualmente, custom p10k, kitty terminal, zsh shell, custom wallpapers, i3lock, etc.
 
-![](https://github.com/ZLCube/KaliBspwm/blob/main/Design%20preview%20(Useless)/Picture1.PNG)
-![](https://github.com/ZLCube/KaliBspwm/blob/main/Design%20preview%20(Useless)/Picture111.PNG)
-![](https://github.com/ZLCube/KaliBspwm/blob/main/Design%20preview%20(Useless)/Picture11.PNG)
-![](https://github.com/ZLCube/KaliBspwm/blob/main/Design%20preview%20(Useless)/Picture2.PNG)
-![](https://github.com/ZLCube/KaliBspwm/blob/main/Design%20preview%20(Useless)/Picture3.PNG)
-![](https://github.com/ZLCube/KaliBspwm/blob/main/Design%20preview%20(Useless)/Picture4.PNG)
-
-
-## Shortcuts
-| Acción | Shortcut |
-| -------- | -------- |
-| Cambiar de workspace específico | <kbd>Windows</kbd> + <kbd>[1\|2\|3\|4\|5\|6\|7\|8\|9\|0]</kbd> |
-| Cambiar de workspace a el siguiente o el anterior | <kbd>Windows</kbd> + <kbd>]\|[</kbd> |
-| Alternar entre los dos últimos workspaces | <kbd>Windows</kbd> + <kbd>Tab</kbd> |
-| Seleccionar ventana abierta en el workspace actual | <kbd>Windows</kbd> + <kbd>⇦⇧⇩⇨</kbd> | 
-| Mover la ventana seleccionada a otro workspace | <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>[1\|2\|3\|4\|5\|6\|7\|8\|9\|0]</kbd> |
-| Abrir terminal (*Kitty*) | <kbd>Windows</kbd> + <kbd>Enter</kbd> |
-| Abrir navegador (*Firefox*) | <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> |
-| Abrir navegador (*Chromium*) | <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> |
-| Abrir *BurpSuite* | <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> |
-| Abrir menú de aplicaciones (*Rofi*) | <kbd>Windows</kbd> + <kbd>D</kbd> |
-| Tomar screenshot (*Flameshot*) | <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> |
-| Bloquear pantalla (*i3lock-color*) | <kbd>Windows</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd> |
-| Abrir menú para apagar, suspender, etc. El sistema (*Rofi*) | <kbd>Windows</kbd> + <kbd>P</kbd>|
-| Cerrar ventana seleccionada | <kbd>Windows</kbd> + <kbd>W</kbd> |
-| Abrir preselección | <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd> + <kbd>⇦⇧⇩⇨</kbd> |
-| Resize de preselección | <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>[1\|2\|3\|4\|5\|6\|7\|8\|9\|0]</kbd> |
-| Cerrar preselección | <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>Space</kbd> |
-| Cambiar la ventana seleccionada a modo *Flotante* | <kbd>Windows</kbd> + <kbd>S</kbd> |
-| Cambiar la ventana seleccionada a modo *Terminal* | <kbd>Windows</kbd> + <kbd>T</kbd> |
-| Cambiar layout de la ventana seleccionada entre *Tiled* y *Monocle* | <kbd>Windows</kbd> + <kbd>M</kbd> |
-| Resize de ventanas flotantes | <kbd>Windows</kbd> + <kbd>Alt</kbd> + <kbd>⇦⇧⇩⇨</kbd> |
-| Mover ventanas flotantes | <kbd>Windows</kbd> + <kbd>Ctrl</kbd> + <kbd>⇦⇧⇩⇨</kbd> |
-| Recargar configuración (*bspwm*) | <kbd>Windows</kbd> + <kbd>Alt</kbd> + <kbd>R</kbd> |
-| Cerrar sesión | <kbd>Windows</kbd> + <kbd>Alt</kbd> + <kbd>Q</kbd> |
-| Recargar configuración (*sxhkd*) | <kbd>Windows</kbd> + <kbd>Esc</kbd> |
-| Subir volumen del sistema | <kbd>Fn</kbd> + <kbd>F3</kbd> |
-| Bajar volumen del sistema | <kbd>Fn</kbd> + <kbd>F2</kbd> |
-| Subir brillo del monitor | <kbd>Fn</kbd> + <kbd>F6</kbd> |
-| Bajar brillo del monitor | <kbd>Fn</kbd> + <kbd>F5</kbd> |
-
-
+![](public/images/readme/1.png)
+![](public/images/readme/2.png)
+![](public/images/readme/3.png)
 
 
